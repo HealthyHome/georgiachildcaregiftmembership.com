@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  background-color: #eee;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  color: #666;
+  font-family:'Oswald', sans-serif;
+}  
+    
+h1 {
+  font-size: 46px;
+  color: #65ae39;
+  text-align: left;
+  line-height: 50px;
+  margin: -18px 0 0 0;
+}  
+    
+h2 {
+  font-size: 38px;
+  line-height: 40px;
+}
+    
+    
+h3 {
+  font-size: 35px;
+  line-height: 35px;
+}    
+    
+h4 {
+  font-size: 31px;
+  line-height: 0px;
+}
+    
+p {
+  font-size: 20px;
+  line-height: 22px;
+}
+a {
+  color: #27b2d3;
+}
+
+        
+     
+        
+    
+/* Classes */
+#header{ 
+  background: #76dff2;
+  text-align: center;
+}
+#nav{
+  background: #b2b2b2;
+}
+    #navLinks{
+      display: block;
+      width: 1000px;
+      margin: 0 auto;
+      padding: 0 6px;
+      list-style: 0;
+      background: #fff;
+    }
+          #navLinks li{
+            display: block;
+            float: left;
+            width: 40%;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            padding: 16px 0 8px;
+          }
+              #navLinks li a{
+                color: #666;
+                text-decoration: none;
+                font-size: 24px;
+                font-family: arial;
+                font-weight: bold;
+              }
+          #navLinks #socialLi{
+            width: 20%;
+          }
+#container{
+  width: 1012px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0px 5px 6px #999;
+}
+      #introCopy{
+        background: #f3f3f3;
+        padding: 18px 18px 0 18px;
+      }
+      #helpYourFriends{
+        background: url('images/bg_pregWoman.jpg') right bottom no-repeat;
+        padding: 36px 190px 0 0;
+        min-height: 343px;
+      }
+            #earnTen{
+              width: 700px;
+            }
+            #ampersand{
+              margin-right: 12px;
+            }
+            #bottles{
+              margin-top: -24px;
+            }
+      #info{
+      }
+      #bookmarkThis{
+        background: #b8c78e;
+      }
+      #footer{
+        background-color: #ddd;
+        padding: 5px 60px 20px 60px;
+        margin:0 0 0 0;
+      }
+
+
+
+a.navlink:link    {text-decoration: none;}      /* unvisited link */
+a.navlink:visited {text-decoration: none;}  /* visited link */
+a.navlink:hover   {text-decoration: underline;}  /* mouse over link */
+a.navlink:active  {text-decoration: underline;}  /* selected link */
+
+.white  {color: #ffffff;}
+.grey   {color: #626363;}
+.green  {color: #39a1ae;}
+.ttgreen{color: #81a61e;}
+.blue   {color: #27b2d3;}
+.dkblue {color: #0590b1;}
+
+.clear  {clear: both;}
+.floatl {float: left;}
+.floatr {float: right;}
+
+.half  {width: 45%; padding: 2%;}
+
+.underline{text-decoration:underline;}
+.upper    {text-transform:uppercase;}
+
+.arial  {font-family: arial, sans-serif;}
+
+.center{
+  text-align: center;
+}
+
+.bodyCopy{ 
+  font-family: arial;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.lite   {font-weight: 300;}
+.regular{font-weight: 400;}
+.bold   {font-weight: 500;}
+
+.enourmous{font-size: 160px;}
+.xxlarge  {font-size: 80px; line-height: 105px;}
+.xlarge   {font-size: 70px; line-height: 70px; margin: 0;}
+.large    {font-size: 54px; line-height: 70px;}
+.medium   {font-size: 36px; line-height: 42px;}
+.small    {font-size: 32px; line-height: 42px;}
+.xsmall   {font-size: 21px; line-height: 30px;}
+.xxsmall  {font-size: 16px; line-height: 24px;}
+.tiny     {font-size: 14px;}
+
+/* FORMS */
+form, fieldset{
+  border: none;
+  padding: 0;
+  width: 95%;
+}
+label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 18px;
+}
+input { 
+ color: #555;
+ font-size: 18px;
+ line-height: 20px;
+ border: 1px solid #666666;
+ background-color: #ffffff;
+ outline: 0;
+ width: 100%;
+ height: 20px;
+ padding:10px;
+}   
+
+.submit {color: #666666;
+  font-size: 18px;
+  line-height: 20px;
+  font-family:'Arial', sans-serif;
+  border: 0px solid #666666;
+  background-color: #ffffff;
+  outline: 0;
+  width: 205px;
+  height: 45px;
+  margin: 30px 0 20px 0;
+  padding: 0;
+ }
+
+
+
+
+ /* ========= THANK YOU PAGE STYLES ========= */
+ .imgIcon{
+  margin: -8px 12px 0 0;
+ }
+
+ /* ====== Thank You Intro ====== */
+ #introMessage{
+  margin-top: -30px;
+ }
+ #memberInfo{
+  background: #c2faff;
+  border: 2px solid #27b2d3;
+  padding: 8px;
+  font-family: arial;
+ }
+ #memberInfo h3.small{
+  line-height: 28px;
+  margin-top: 4px;
+ }
+    #memberNo{
+      font-family: courier;
+      font-size: 36px;
+      line-height: 18px;
+    }
+    #memberPass{
+      font-family: courier;
+      margin: 12px 0 0 0;
+    }
+    #memberLink{
+      display: block;
+      padding: 3px;
+      background: #fff;
+      border: 1px solid #999;
+    }
+
+
+/* ====== Nav Bar ====== */
+#navBar{
+ background: #b0d257;
+ padding: 2%;
+}
+    .navBarLink{
+      display: block;
+      float: left;
+      width: 24%;
+      color: #1e7dab;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-decoration: none;
+      font-family: arial;
+    }
+      .navBarLink img{
+        padding-right: 8px;
+      }
+
+/* ====== What's Next ====== */
+#whatsNext{
+  background: #bfbebc;
+  padding: 18px;
+}
+#whatsNext p{
+  margin-left: 100px;
+  width: 80%;
+}
+
+/* ====== Retail Challenge ====== */
+
+#retailOverview{
+  padding: 18px;
+  background: #c7f3fe;
+}
+
+/* ====== Shop Products ====== */
+#shopProducts{
+  padding: 18px;
+}
+
+.product{
+  width: 33%;
+  float: left;
+  height: 500px;
+}
+
+/* ====== Toxic Test ====== */
+#toxicTest{
+  background: #bfbebc;
+  padding: 18px;
+}
+
+
+
+
+
